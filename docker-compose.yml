@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  aluraflix:
+    image: chall-1:1.0
+    container_name: aluraflix
+    volumes:
+      - dados:/app-alura
+    networks:
+      - net-aluraflix
+    ports:
+      - 8000:8000
+
+volumes:
+  dados:
+
+networks:
+  net-aluraflix:
+    driver: bridge
