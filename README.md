@@ -13,4 +13,4 @@ Para criar o super usuário:
     sudo docker exec -it aluraflix python manage.py createsuperuser
     
 
-Obs: Infelizmente não consegui separar o banco de dados para rodar em seu próprio container. Fora isso, a aplicação está rodando normalmente, acredito eu hahaha.
+Obs: Infelizmente não consegui separar o banco de dados para rodar em seu próprio container. Fora isso, a aplicação está rodando normalmente, acredito eu haha.
